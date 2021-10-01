@@ -1,0 +1,16 @@
+PODS:
+  - SonarcloudTest (0.1.0)
+
+DEPENDENCIES:
+  - SonarcloudTest (from `../`)
+
+EXTERNAL SOURCES:
+  SonarcloudTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SonarcloudTest: d1a4a927655ee5396ee5e99fbcdc6427dc4b73f8
+
+PODFILE CHECKSUM: e2ae911248e9f50e1be80f83be25dba536cace1a
+
+COCOAPODS: 1.11.2

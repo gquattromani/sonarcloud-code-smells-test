@@ -1,0 +1,22 @@
+{
+  "name": "SonarcloudTest",
+  "version": "0.1.0",
+  "summary": "A short description of SonarcloudTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Giandemetrio Quattromani/SonarcloudTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Giandemetrio Quattromani": "g.quattromani@doveconviene.com"
+  },
+  "source": {
+    "git": "https://github.com/Giandemetrio Quattromani/SonarcloudTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SonarcloudTest/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module SonarcloudTest {
+  umbrella header "SonarcloudTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

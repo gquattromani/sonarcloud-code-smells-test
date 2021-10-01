@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF5161480B797DE660B225542474C15 /* SonarcloudTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F0665140EF2CE5D1A8C50A858F1D3 /* SonarcloudTest-dummy.m */; };
+		21FDAAE72DB96DD4433E7EE1AB4D0384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		29161D344B8FE409ECA00AF9961424F3 /* Pods-SonarcloudTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577AFBAA21EDED90FD0F6BE1EABAF54 /* Pods-SonarcloudTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40660446EB29A7D0265CB1C2F7F229F6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */; };
+		5D7C854BFF66AF1EC9EB0A3BF088326A /* Pods-SonarcloudTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E55CC7EF7C35960E0EA3AD81FD0C83 /* Pods-SonarcloudTest_Example-dummy.m */; };
+		784F137E2662459C9E75A736DCE9F27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DE7B6EE57A32652C752B3CE5C365322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AC9A1707A839DEE150C4402600BA7C41 /* Pods-SonarcloudTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 518D67590A2C1CA20E2BA4A92E7A58EF /* Pods-SonarcloudTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D12C21340FDBB0E72FB487AF36CD05BA /* SonarcloudTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 162DAD1D7E8F0AD3B72B98F70428CAB4 /* SonarcloudTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C6B7216B0B16080B63B5557760FDED /* Pods-SonarcloudTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A9DAEE09CBA4AD0E627F8ACA0E9F77 /* Pods-SonarcloudTest_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F4067A76FD64C621EAEB5FFE95B7909 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71BC5396771D034198495D8F10EA433F;
+			remoteInfo = "Pods-SonarcloudTest_Example";
+		};
+		FA1AC09490F6357889FF536A2D3ACB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E129634A1AB8601D7093C84B0EE1599B;
+			remoteInfo = SonarcloudTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008CFABFC06208FF4C20B14AF70EE002 /* SonarcloudTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SonarcloudTest.debug.xcconfig; sourceTree = "<group>"; };
+		15E55CC7EF7C35960E0EA3AD81FD0C83 /* Pods-SonarcloudTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarcloudTest_Example-dummy.m"; sourceTree = "<group>"; };
+		162DAD1D7E8F0AD3B72B98F70428CAB4 /* SonarcloudTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SonarcloudTest-umbrella.h"; sourceTree = "<group>"; };
+		16C5500445C7273741664C09B8B6CB82 /* Pods-SonarcloudTest_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SonarcloudTest_Example"; path = Pods_SonarcloudTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3EB6A03CF2B0F9E3E4CFD86354C596 /* SonarcloudTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SonarcloudTest-Info.plist"; sourceTree = "<group>"; };
+		301E4E5D7DDF08EAC9BF7BECBC3EFE97 /* SonarcloudTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SonarcloudTest-prefix.pch"; sourceTree = "<group>"; };
+		3292F14FC461E2446113653AB118661E /* Pods-SonarcloudTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SonarcloudTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		41ABD3605BA8EDAC292692CDD13853E3 /* Pods-SonarcloudTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		507179C3C9857F94137E8DB050BCF316 /* SonarcloudTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SonarcloudTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		518D67590A2C1CA20E2BA4A92E7A58EF /* Pods-SonarcloudTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarcloudTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		540E2BA80A02734BAE6DD21733C9F5E6 /* Pods-SonarcloudTest_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SonarcloudTest_Tests"; path = Pods_SonarcloudTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0A58FFE9FF58DD97459854B82D656A /* SonarcloudTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SonarcloudTest.modulemap; sourceTree = "<group>"; };
+		602552547922463FFD962E86AAEE3658 /* Pods-SonarcloudTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarcloudTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63F965F6C820C01B1158C5FD162CA5E8 /* Pods-SonarcloudTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6577AFBAA21EDED90FD0F6BE1EABAF54 /* Pods-SonarcloudTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarcloudTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7362A7455422609A878700E49E55EC57 /* Pods-SonarcloudTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		848B13D95F13DD31758D064A9F472554 /* SonarcloudTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SonarcloudTest.release.xcconfig; sourceTree = "<group>"; };
+		923587377F053B31591D8EE322A2AF0A /* Pods-SonarcloudTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		94B633E4929E26A41650AB47B5C24726 /* Pods-SonarcloudTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarcloudTest_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A090E03CBC40B28C29D70DFAC057EE8A /* Pods-SonarcloudTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A0F184E70A2190335A5398FBFBF979AE /* Pods-SonarcloudTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		AA0D465EEF8EDA08479CD8AC5F8A4DEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B0C544989C69FE2EA8BC36C509799FC0 /* Pods-SonarcloudTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Example-Info.plist"; sourceTree = "<group>"; };
+		B4A9DAEE09CBA4AD0E627F8ACA0E9F77 /* Pods-SonarcloudTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarcloudTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		BF10BE703656A7A635CABC2903C87898 /* Pods-SonarcloudTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C35F0665140EF2CE5D1A8C50A858F1D3 /* SonarcloudTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SonarcloudTest-dummy.m"; sourceTree = "<group>"; };
+		D85C7250127B5A1ED5E9114882922EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EAF23022C0A80624328F23AE80BF03DE /* Pods-SonarcloudTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarcloudTest_Example.modulemap"; sourceTree = "<group>"; };
+		F012E8C3F49BF00BF9556ACEA39BC8E5 /* SonarcloudTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SonarcloudTest; path = SonarcloudTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C789F77A8DE82DEF49BFCE4B9CE1C6 /* Pods-SonarcloudTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarcloudTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SonarcloudTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3864DA35DCD89C58F851B3C81C9202 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784F137E2662459C9E75A736DCE9F27B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1267C0135B4C3729E3222AC0872EB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FDAAE72DB96DD4433E7EE1AB4D0384 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0C469D45DFA1F399ABDEBCA49F04716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE7B6EE57A32652C752B3CE5C365322 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4FA1126FFCF956923F6292F355AC7F /* Pods-SonarcloudTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				94B633E4929E26A41650AB47B5C24726 /* Pods-SonarcloudTest_Tests.modulemap */,
+				602552547922463FFD962E86AAEE3658 /* Pods-SonarcloudTest_Tests-acknowledgements.markdown */,
+				63F965F6C820C01B1158C5FD162CA5E8 /* Pods-SonarcloudTest_Tests-acknowledgements.plist */,
+				B4A9DAEE09CBA4AD0E627F8ACA0E9F77 /* Pods-SonarcloudTest_Tests-dummy.m */,
+				A0F184E70A2190335A5398FBFBF979AE /* Pods-SonarcloudTest_Tests-Info.plist */,
+				6577AFBAA21EDED90FD0F6BE1EABAF54 /* Pods-SonarcloudTest_Tests-umbrella.h */,
+				41ABD3605BA8EDAC292692CDD13853E3 /* Pods-SonarcloudTest_Tests.debug.xcconfig */,
+				A090E03CBC40B28C29D70DFAC057EE8A /* Pods-SonarcloudTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-SonarcloudTest_Tests";
+			path = "Target Support Files/Pods-SonarcloudTest_Tests";
+			sourceTree = "<group>";
+		};
+		3CF9A7E53814B27A13D2C2CC57E1B82A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D85C7250127B5A1ED5E9114882922EE1 /* LICENSE */,
+				AA0D465EEF8EDA08479CD8AC5F8A4DEE /* README.md */,
+				507179C3C9857F94137E8DB050BCF316 /* SonarcloudTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		470AB335FE77EE1438E4BF3F80508180 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C5500445C7273741664C09B8B6CB82 /* Pods-SonarcloudTest_Example */,
+				540E2BA80A02734BAE6DD21733C9F5E6 /* Pods-SonarcloudTest_Tests */,
+				F012E8C3F49BF00BF9556ACEA39BC8E5 /* SonarcloudTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53A5AD8D5B88D8B01BD5DED10AAF287D /* SonarcloudTest */ = {
+			isa = PBXGroup;
+			children = (
+				F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */,
+				3CF9A7E53814B27A13D2C2CC57E1B82A /* Pod */,
+				683C8ACC993B2D10D9138A64513C234B /* Support Files */,
+			);
+			name = SonarcloudTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		683C8ACC993B2D10D9138A64513C234B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0A58FFE9FF58DD97459854B82D656A /* SonarcloudTest.modulemap */,
+				C35F0665140EF2CE5D1A8C50A858F1D3 /* SonarcloudTest-dummy.m */,
+				1A3EB6A03CF2B0F9E3E4CFD86354C596 /* SonarcloudTest-Info.plist */,
+				301E4E5D7DDF08EAC9BF7BECBC3EFE97 /* SonarcloudTest-prefix.pch */,
+				162DAD1D7E8F0AD3B72B98F70428CAB4 /* SonarcloudTest-umbrella.h */,
+				008CFABFC06208FF4C20B14AF70EE002 /* SonarcloudTest.debug.xcconfig */,
+				848B13D95F13DD31758D064A9F472554 /* SonarcloudTest.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SonarcloudTest";
+			sourceTree = "<group>";
+		};
+		74E5332DE116F5ACDC4F3600617CF658 /* Pods-SonarcloudTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EAF23022C0A80624328F23AE80BF03DE /* Pods-SonarcloudTest_Example.modulemap */,
+				F7C789F77A8DE82DEF49BFCE4B9CE1C6 /* Pods-SonarcloudTest_Example-acknowledgements.markdown */,
+				7362A7455422609A878700E49E55EC57 /* Pods-SonarcloudTest_Example-acknowledgements.plist */,
+				15E55CC7EF7C35960E0EA3AD81FD0C83 /* Pods-SonarcloudTest_Example-dummy.m */,
+				3292F14FC461E2446113653AB118661E /* Pods-SonarcloudTest_Example-frameworks.sh */,
+				B0C544989C69FE2EA8BC36C509799FC0 /* Pods-SonarcloudTest_Example-Info.plist */,
+				518D67590A2C1CA20E2BA4A92E7A58EF /* Pods-SonarcloudTest_Example-umbrella.h */,
+				923587377F053B31591D8EE322A2AF0A /* Pods-SonarcloudTest_Example.debug.xcconfig */,
+				BF10BE703656A7A635CABC2903C87898 /* Pods-SonarcloudTest_Example.release.xcconfig */,
+			);
+			name = "Pods-SonarcloudTest_Example";
+			path = "Target Support Files/Pods-SonarcloudTest_Example";
+			sourceTree = "<group>";
+		};
+		90E6113028F355612A4728916747AC5D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74E5332DE116F5ACDC4F3600617CF658 /* Pods-SonarcloudTest_Example */,
+				1F4FA1126FFCF956923F6292F355AC7F /* Pods-SonarcloudTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC2199E08FACB07C1AF2C1E1FFF1731D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53A5AD8D5B88D8B01BD5DED10AAF287D /* SonarcloudTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				AC2199E08FACB07C1AF2C1E1FFF1731D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				470AB335FE77EE1438E4BF3F80508180 /* Products */,
+				90E6113028F355612A4728916747AC5D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5AC0844AA879F24E2A855689CC6EF80A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12C21340FDBB0E72FB487AF36CD05BA /* SonarcloudTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C524D3B89ED95BD3D5C856DD67FFEBF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29161D344B8FE409ECA00AF9961424F3 /* Pods-SonarcloudTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF22BF6398D8B828937AC0B5E5C017F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC9A1707A839DEE150C4402600BA7C41 /* Pods-SonarcloudTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		71BC5396771D034198495D8F10EA433F /* Pods-SonarcloudTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A94299018C2F7B00577E1F3054D6920 /* Build configuration list for PBXNativeTarget "Pods-SonarcloudTest_Example" */;
+			buildPhases = (
+				DF22BF6398D8B828937AC0B5E5C017F2 /* Headers */,
+				479B95F76F50A9139234EDA44DBF803A /* Sources */,
+				3E3864DA35DCD89C58F851B3C81C9202 /* Frameworks */,
+				AC2A2BF8C8331D369C4732EAA6798F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7227CBB6902DC6D47FD03405EDC37EC /* PBXTargetDependency */,
+			);
+			name = "Pods-SonarcloudTest_Example";
+			productName = Pods_SonarcloudTest_Example;
+			productReference = 16C5500445C7273741664C09B8B6CB82 /* Pods-SonarcloudTest_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A35CC04A40DF1FCDDB3629D86CEE2E5F /* Pods-SonarcloudTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953D492AA94C21BBD11BEA50C089E081 /* Build configuration list for PBXNativeTarget "Pods-SonarcloudTest_Tests" */;
+			buildPhases = (
+				6C524D3B89ED95BD3D5C856DD67FFEBF /* Headers */,
+				9238EC03913941A7B4650CC1EAD36F22 /* Sources */,
+				F0C469D45DFA1F399ABDEBCA49F04716 /* Frameworks */,
+				48075F0F61C9B46F9ADCF3EB73BD130D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F105DAB620624C1D7F1D880AE24425D /* PBXTargetDependency */,
+			);
+			name = "Pods-SonarcloudTest_Tests";
+			productName = Pods_SonarcloudTest_Tests;
+			productReference = 540E2BA80A02734BAE6DD21733C9F5E6 /* Pods-SonarcloudTest_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E129634A1AB8601D7093C84B0EE1599B /* SonarcloudTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564B82B11D91FE9E06DE91FDB0223AAD /* Build configuration list for PBXNativeTarget "SonarcloudTest" */;
+			buildPhases = (
+				5AC0844AA879F24E2A855689CC6EF80A /* Headers */,
+				9B455EF32DB3C8D373B4C8A358CEA1A9 /* Sources */,
+				C1267C0135B4C3729E3222AC0872EB9A /* Frameworks */,
+				178F01C633FFF6135EB702BF7D09AD21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonarcloudTest;
+			productName = SonarcloudTest;
+			productReference = F012E8C3F49BF00BF9556ACEA39BC8E5 /* SonarcloudTest */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 470AB335FE77EE1438E4BF3F80508180 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71BC5396771D034198495D8F10EA433F /* Pods-SonarcloudTest_Example */,
+				A35CC04A40DF1FCDDB3629D86CEE2E5F /* Pods-SonarcloudTest_Tests */,
+				E129634A1AB8601D7093C84B0EE1599B /* SonarcloudTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		178F01C633FFF6135EB702BF7D09AD21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48075F0F61C9B46F9ADCF3EB73BD130D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2A2BF8C8331D369C4732EAA6798F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		479B95F76F50A9139234EDA44DBF803A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7C854BFF66AF1EC9EB0A3BF088326A /* Pods-SonarcloudTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9238EC03913941A7B4650CC1EAD36F22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7C6B7216B0B16080B63B5557760FDED /* Pods-SonarcloudTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B455EF32DB3C8D373B4C8A358CEA1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40660446EB29A7D0265CB1C2F7F229F6 /* ReplaceMe.swift in Sources */,
+				0BF5161480B797DE660B225542474C15 /* SonarcloudTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F105DAB620624C1D7F1D880AE24425D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SonarcloudTest_Example";
+			target = 71BC5396771D034198495D8F10EA433F /* Pods-SonarcloudTest_Example */;
+			targetProxy = 8F4067A76FD64C621EAEB5FFE95B7909 /* PBXContainerItemProxy */;
+		};
+		E7227CBB6902DC6D47FD03405EDC37EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SonarcloudTest;
+			target = E129634A1AB8601D7093C84B0EE1599B /* SonarcloudTest */;
+			targetProxy = FA1AC09490F6357889FF536A2D3ACB6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		126B153732CBED2DCA4B7DF9D69FEA6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 008CFABFC06208FF4C20B14AF70EE002 /* SonarcloudTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SonarcloudTest/SonarcloudTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SonarcloudTest/SonarcloudTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SonarcloudTest/SonarcloudTest.modulemap";
+				PRODUCT_MODULE_NAME = SonarcloudTest;
+				PRODUCT_NAME = SonarcloudTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18F02D622EEE513E9DC54FD507582294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41ABD3605BA8EDAC292692CDD13853E3 /* Pods-SonarcloudTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SonarcloudTest_Tests/Pods-SonarcloudTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SonarcloudTest_Tests/Pods-SonarcloudTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2EE9DD14CC1646E0B70E817C295178A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF10BE703656A7A635CABC2903C87898 /* Pods-SonarcloudTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SonarcloudTest_Example/Pods-SonarcloudTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SonarcloudTest_Example/Pods-SonarcloudTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C73AB404DB5525F70F6D340F2ADC221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848B13D95F13DD31758D064A9F472554 /* SonarcloudTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SonarcloudTest/SonarcloudTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SonarcloudTest/SonarcloudTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SonarcloudTest/SonarcloudTest.modulemap";
+				PRODUCT_MODULE_NAME = SonarcloudTest;
+				PRODUCT_NAME = SonarcloudTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE9B3661CED60A762EDE714B13B142AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A090E03CBC40B28C29D70DFAC057EE8A /* Pods-SonarcloudTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SonarcloudTest_Tests/Pods-SonarcloudTest_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SonarcloudTest_Tests/Pods-SonarcloudTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9BDD50B8D7C088295F40CE781B5E07F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 923587377F053B31591D8EE322A2AF0A /* Pods-SonarcloudTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SonarcloudTest_Example/Pods-SonarcloudTest_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SonarcloudTest_Example/Pods-SonarcloudTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A94299018C2F7B00577E1F3054D6920 /* Build configuration list for PBXNativeTarget "Pods-SonarcloudTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BDD50B8D7C088295F40CE781B5E07F /* Debug */,
+				2EE9DD14CC1646E0B70E817C295178A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564B82B11D91FE9E06DE91FDB0223AAD /* Build configuration list for PBXNativeTarget "SonarcloudTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126B153732CBED2DCA4B7DF9D69FEA6C /* Debug */,
+				4C73AB404DB5525F70F6D340F2ADC221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953D492AA94C21BBD11BEA50C089E081 /* Build configuration list for PBXNativeTarget "Pods-SonarcloudTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F02D622EEE513E9DC54FD507582294 /* Debug */,
+				BE9B3661CED60A762EDE714B13B142AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
