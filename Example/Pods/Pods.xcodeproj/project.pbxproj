@@ -10,7 +10,7 @@
 		0BF5161480B797DE660B225542474C15 /* SonarcloudTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C35F0665140EF2CE5D1A8C50A858F1D3 /* SonarcloudTest-dummy.m */; };
 		21FDAAE72DB96DD4433E7EE1AB4D0384 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		29161D344B8FE409ECA00AF9961424F3 /* Pods-SonarcloudTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6577AFBAA21EDED90FD0F6BE1EABAF54 /* Pods-SonarcloudTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		40660446EB29A7D0265CB1C2F7F229F6 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */; };
+		40660446EB29A7D0265CB1C2F7F229F6 /* SomeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D22AB12299A10A488DFA7573C4415E /* SomeClass.swift */; };
 		5D7C854BFF66AF1EC9EB0A3BF088326A /* Pods-SonarcloudTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E55CC7EF7C35960E0EA3AD81FD0C83 /* Pods-SonarcloudTest_Example-dummy.m */; };
 		784F137E2662459C9E75A736DCE9F27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9DE7B6EE57A32652C752B3CE5C365322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -45,7 +45,7 @@
 		301E4E5D7DDF08EAC9BF7BECBC3EFE97 /* SonarcloudTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SonarcloudTest-prefix.pch"; sourceTree = "<group>"; };
 		3292F14FC461E2446113653AB118661E /* Pods-SonarcloudTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SonarcloudTest_Example-frameworks.sh"; sourceTree = "<group>"; };
 		41ABD3605BA8EDAC292692CDD13853E3 /* Pods-SonarcloudTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		507179C3C9857F94137E8DB050BCF316 /* SonarcloudTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SonarcloudTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		507179C3C9857F94137E8DB050BCF316 /* SonarcloudTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SonarcloudTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		518D67590A2C1CA20E2BA4A92E7A58EF /* Pods-SonarcloudTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SonarcloudTest_Example-umbrella.h"; sourceTree = "<group>"; };
 		540E2BA80A02734BAE6DD21733C9F5E6 /* Pods-SonarcloudTest_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SonarcloudTest_Tests"; path = Pods_SonarcloudTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0A58FFE9FF58DD97459854B82D656A /* SonarcloudTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SonarcloudTest.modulemap; sourceTree = "<group>"; };
@@ -57,19 +57,19 @@
 		848B13D95F13DD31758D064A9F472554 /* SonarcloudTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SonarcloudTest.release.xcconfig; sourceTree = "<group>"; };
 		923587377F053B31591D8EE322A2AF0A /* Pods-SonarcloudTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		94B633E4929E26A41650AB47B5C24726 /* Pods-SonarcloudTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarcloudTest_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A090E03CBC40B28C29D70DFAC057EE8A /* Pods-SonarcloudTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A0F184E70A2190335A5398FBFBF979AE /* Pods-SonarcloudTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Tests-Info.plist"; sourceTree = "<group>"; };
-		AA0D465EEF8EDA08479CD8AC5F8A4DEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA0D465EEF8EDA08479CD8AC5F8A4DEE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B0C544989C69FE2EA8BC36C509799FC0 /* Pods-SonarcloudTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SonarcloudTest_Example-Info.plist"; sourceTree = "<group>"; };
 		B4A9DAEE09CBA4AD0E627F8ACA0E9F77 /* Pods-SonarcloudTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SonarcloudTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		BF10BE703656A7A635CABC2903C87898 /* Pods-SonarcloudTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SonarcloudTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C35F0665140EF2CE5D1A8C50A858F1D3 /* SonarcloudTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SonarcloudTest-dummy.m"; sourceTree = "<group>"; };
-		D85C7250127B5A1ED5E9114882922EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D85C7250127B5A1ED5E9114882922EE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EAF23022C0A80624328F23AE80BF03DE /* Pods-SonarcloudTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SonarcloudTest_Example.modulemap"; sourceTree = "<group>"; };
 		F012E8C3F49BF00BF9556ACEA39BC8E5 /* SonarcloudTest */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SonarcloudTest; path = SonarcloudTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7C789F77A8DE82DEF49BFCE4B9CE1C6 /* Pods-SonarcloudTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SonarcloudTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SonarcloudTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F8D22AB12299A10A488DFA7573C4415E /* SomeClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SomeClass.swift; path = SonarcloudTest/Classes/SomeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,7 +139,7 @@
 		53A5AD8D5B88D8B01BD5DED10AAF287D /* SonarcloudTest */ = {
 			isa = PBXGroup;
 			children = (
-				F8D22AB12299A10A488DFA7573C4415E /* ReplaceMe.swift */,
+				F8D22AB12299A10A488DFA7573C4415E /* SomeClass.swift */,
 				3CF9A7E53814B27A13D2C2CC57E1B82A /* Pod */,
 				683C8ACC993B2D10D9138A64513C234B /* Support Files */,
 			);
@@ -383,7 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40660446EB29A7D0265CB1C2F7F229F6 /* ReplaceMe.swift in Sources */,
+				40660446EB29A7D0265CB1C2F7F229F6 /* SomeClass.swift in Sources */,
 				0BF5161480B797DE660B225542474C15 /* SonarcloudTest-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -686,8 +686,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
