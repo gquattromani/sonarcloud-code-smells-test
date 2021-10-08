@@ -10,9 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var letters: [String] = ["a"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        letters[0] = "London"
+        letters[0] = "Chicago"  // Noncompliant
     }
 
     override func didReceiveMemoryWarning() {
