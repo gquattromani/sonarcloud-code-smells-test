@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+
+        let postData = "username=Steve&password=123456".data(using: .utf8)  // Sensitive
+
+        var request = URLRequest(url: URL(string: "http://server.io")!)
+        request.httpBody = postData
     }
 
     override func didReceiveMemoryWarning() {
